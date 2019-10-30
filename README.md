@@ -1,6 +1,5 @@
-# Our portfolio
+# Portfolio in Web Multimedia Technologies
 
-This portfolio is made for us to practice making a website in the course Technologías Multimedia Web, at la Universitat Politécnica de Valencia.
-
+This portfolio is made by two students at la Universitat Politécnica de Valéncia in the course 3401 - Web Multimedia Technologies. It's purpose is to practice creating a web page and using multimedia technologies to display various types of content on the page.
 
 
