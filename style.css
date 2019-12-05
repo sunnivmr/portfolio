@@ -3,6 +3,10 @@ body {
     font-family: Roboto;
 }
 
+/**
+Decorating text
+**/
+
 h1 {
     color: #22252B;
     padding: 50px;
@@ -14,6 +18,32 @@ h1 {
 p {
     color: #22252B;
 }
+
+/**
+Decorating links
+**/
+
+a:link {
+    color: #22252B;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #22252B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #FF4EAD;
+}
+
+/**
+Decorating divs
+**/
 
 .info {
     background-color: #E2F3F9;
