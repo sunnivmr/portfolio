@@ -19,6 +19,7 @@ li a {
     padding: 10px;
     font-size: 12px;
     text-decoration: none;
+    text-align: center;
 }
 
 li a:hover:not(.active) {
@@ -72,9 +73,6 @@ a:hover {
     text-decoration: underline;
 }
 
-a:active {
-    color: #FF4EAD;
-}
 
 /**
 Decorating divs
