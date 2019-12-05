@@ -1,12 +1,47 @@
 body {
-    background-color: #C4CAE2;
+    background-color: #7FB1B4;
     font-family: Roboto;
+}
+
+/**
+Decoration navbar
+**/
+ul {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0px;
+    width: 100px;
+    background-color: #E2F3F9;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #CAE0E9;
+    text-decoration: none;
+}
+
+li a:active: {
+    color: #E2F3F9;
+}
+
+li a.active {
+    background-color: #22252B;
+    color: #E2F3F9;
+}
+
+li a.active:hover {
+    text-decoration: none;
 }
 
 /**
 Decorating text
 **/
-
 h1 {
     color: #22252B;
     padding: 50px;
@@ -15,15 +50,14 @@ h1 {
     font-size: 75px;
 }
 
-
 p {
     color: #22252B;
+    font-size: 14px;
 }
 
 /**
 Decorating links
 **/
-
 a:link {
     color: #22252B;
     text-decoration: none;
@@ -45,7 +79,6 @@ a:active {
 /**
 Decorating divs
 **/
-
 .info {
     background-color: #E2F3F9;
     color: #22252B;
