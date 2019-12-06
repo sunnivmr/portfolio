@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #7FB1B4;
     font-family: Roboto;
@@ -125,32 +129,28 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 10px 20px 10px 20px;
 }
 
-footer p img {
-    display: inline-block;
-    margin: 20px;
-    padding: 10px;
-}
-
-footer p.creators {
+footer div {
     float: left;
-    left: 0;
+    width: 33.33%;
+    padding: 10px;
+    position: absolute:
     bottom: 0;
 }
 
-footer img.upv {
+footer div.course {
+    text-align: center;
+}
+
+footer img {
     width: 150px;
-    position: relative;
-    float: right;
-    right: 25px;
-    top: 10px;
+    position: absolute;
+    right: 0;
 }
 
 @media screen and (max-width: 400px) {
-    footer p {
-        float: none;
-        margin: auto;
+    footer div {
+        width: 100%;
     }
 }
