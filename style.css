@@ -6,10 +6,23 @@ body {
 /**
 Decoration navbar
 **/
+
+#navbar {
+    display: inline-block;
+}
+
 ul {
     list-style-type: none;
-    margin-left: 50px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    float: left;
     width: 100px;
     background-color: #E2F3F9;
 }
@@ -40,12 +53,20 @@ li a.active:hover {
     text-decoration: none;
 }
 
+@media screen and (max-width: 400px) {
+    li {
+        float: none;
+        width: 100px;
+        margin: auto;
+    }
+}
+
 /**
 Decorating text
 **/
 h1 {
     color: #22252B;
-    padding: 50px;
+    padding-top: 50px;
     text-align: center;
     text-transform: uppercase;
     font-size: 75px;
@@ -77,12 +98,16 @@ a:hover {
 /**
 Decorating divs
 **/
+
+.content {
+
+}
+
 .info {
-    background-color: #E2F3F9;
-    color: #22252B;
-    width: 500px;
-    height: 100px;
-    overflow: scroll;
-    padding: 10px;
     margin: auto;
+    text-align: center;
+    color: #22252B;
+    width: 50%;
+    max-width: 400px;
+    padding: 10px;
 }
