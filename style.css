@@ -9,12 +9,26 @@ body {
 }
 
 /**
+Decorating text
+**/
+h1 {
+    color: #22252B;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10vw;
+
+}
+
+p {
+    color: #22252B;
+    font-size: 14px;
+}
+
+/**
 Decoration navbar
 **/
 
-#navbar {
-    display: inline-block;
-}
 
 ul {
     list-style-type: none;
@@ -24,6 +38,7 @@ ul {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 25px;
 }
 
 li {
@@ -64,22 +79,6 @@ li a.active:hover {
         width: 100px;
         margin: auto;
     }
-}
-
-/**
-Decorating text
-**/
-h1 {
-    color: #22252B;
-    padding-top: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 75px;
-}
-
-p {
-    color: #22252B;
-    font-size: 14px;
 }
 
 /**
