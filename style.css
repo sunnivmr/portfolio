@@ -82,6 +82,39 @@ li a.active:hover {
 }
 
 /**
+Decorating assignment-placeholders
+**/
+
+.assignments {
+    color: #22252B;
+    overflow: scroll;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #E2F3F9;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/**
+Clear floats after columns
+**/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/**
 Decorating links
 **/
 a:link {
