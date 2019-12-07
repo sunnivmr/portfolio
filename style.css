@@ -95,9 +95,14 @@ Decorating assignment-placeholders
     float: left;
     width: 150px;
     padding: 10px;
-    margin: 10px;
+    margin: 25px 10px 10px 10px;
     background-color: #E2F3F9;
     text-align: center;
+}
+
+.column:hover {
+    background-color: #CAE0E9;
+    text-decoration: none;
 }
 
 .row {
