@@ -29,6 +29,9 @@ p {
 Decoration navbar
 **/
 
+#navbar {
+    display: none;
+}
 
 ul {
     list-style-type: none;
