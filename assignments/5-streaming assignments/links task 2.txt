@@ -1,0 +1,2 @@
+rtmp://stream-sisop.disca.upv.es/tmw/LQ_Su_Liz_cri.mp4
+rtmp://stream-sisop.disca.upv.es/tmw/HQ_Su_Liz_cri.mp4
