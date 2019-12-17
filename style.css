@@ -45,14 +45,11 @@ ul {
 
 li {
     float: left;
-    width: 100px;
     background-color: #E2F3F9;
 }
 
 li a {
     display: block;
-    padding: 10px;
-    font-size: 12px;
     text-decoration: none;
     text-align: center;
 }
@@ -95,18 +92,16 @@ Decorating assignment-placeholders
 
 .column {
     float: left;
-    width: 150px;
-    padding: 10px;
-    margin: 25px 10px 10px 10px;
+    padding: 1em;
+    margin: 0.5em 1em 1em 0.5em;
     background-color: #E2F3F9;
     text-align: center;
 }
 
 .assignment-item {
     float: left;
-    width: 150px;
-    padding: 10px;
-    margin: 25px 10px 10px 10px;
+    padding: 1em;
+    margin: 0.5em 1em 1em 0.5em;
     background-color: #E2F3F9;
     text-align: center;
 }
@@ -160,6 +155,13 @@ a:hover {
 Decorating divs
 **/
 
+.fillerText {
+    width: 61%;
+    background-color: #E2F3F9;
+    padding: 1.5em;
+    margin: auto;
+    margin-top: 1em;
+}
 
 /**
 Decorating footer
@@ -168,11 +170,15 @@ Decorating footer
 footer {
     background-color: #E2F3F9;
     color: #22252B;
-    position: fixed;
+    position: relative;
+    margin-top: 3em;
     left: 0;
     bottom: 0;
+    right: 0;
     width: 100%;
+    overflow: hidden;
 }
+
 
 footer div {
     float: left;
@@ -187,7 +193,7 @@ footer div.course {
 }
 
 footer img {
-    width: 150px;
+    width: 10em;
     position: absolute;
     right: 0;
 }
