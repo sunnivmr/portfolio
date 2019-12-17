@@ -9,6 +9,7 @@
     justify-content: space-between;
 }
 
+
 body {
     background-color: #9CB2CE;
     font-family: Roboto;
@@ -17,21 +18,51 @@ body {
 }
 
 /**
-Decorating header
+Decoration header
 **/
+
 header {
     color: #E2F3F9;
-    text-align: center;
     margin-top: 1.5em;
-    font-size: 35px;
+    width: 60%;
+    margin: auto;
 }
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+/**
+Decorating about
+**/
+
+.about {
+    color: #E2F3F9;
+    margin-top: 1.5em;
+    width: 60%;
+    margin: auto;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about-text {
+    background-color: #E2F3F9;
+    color: #22252B;
+    opacity: 0.85;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
 
 /**
 Decorating assignment-placeholders
 **/
 
 .assignments {
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: center;
     padding: 1em;
@@ -46,42 +77,46 @@ Decorating assignment-placeholders
 }
 
 .assignment {
+    opacity: 0.85;
     padding: 1em;
     margin: 0.5em 1em 1em 0.5em;
     background-color: #E2F3F9;
+    border-radius: 0.5em;
     text-align: center;
 }
 
 .assignment:hover {
-    background-color: #CAE0E9;
+    opacity: 1;
     text-decoration: none;
 }
 
-
-/**
-Clear floats after columns
-**/
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/**
-Decorating links
-**/
-a:link {
+.assignment:link {
     color: #22252B;
     text-decoration: none;
 }
 
-a:visited {
+.assignment:visited {
     color: #22252B;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+
+
+/**
+Decorating links in footer
+**/
+footer a:link {
+    color: #22252B;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #22252B;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #9CB2CE;
 }
 
 
