@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #4455EF;
+    background-color: #9CB2CE;
     font-family: Roboto;
     margin: 0;
 }
@@ -15,7 +15,6 @@ h1 {
     color: #E2F3F9;
     padding-top: 50px;
     text-align: center;
-    text-transform: uppercase;
     font-size: 10vw;
 
 }
@@ -103,12 +102,29 @@ Decorating assignment-placeholders
     text-align: center;
 }
 
+.assignment-item {
+    float: left;
+    width: 150px;
+    padding: 10px;
+    margin: 25px 10px 10px 10px;
+    background-color: #E2F3F9;
+    text-align: center;
+}
+
 .column:hover {
     background-color: #CAE0E9;
     text-decoration: none;
 }
 
 .row {
+    display: flex;
+    justify-content: center;
+}
+
+#assignment-items {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
     display: flex;
     justify-content: center;
 }
