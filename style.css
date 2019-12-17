@@ -2,82 +2,28 @@
     box-sizing: border-box;
 }
 
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 body {
     background-color: #9CB2CE;
     font-family: Roboto;
     margin: 0;
-}
-
-/**
-Decorating text
-**/
-h1 {
-    color: #E2F3F9;
-    padding-top: 50px;
-    text-align: center;
-    font-size: 10vw;
-
-}
-
-p {
-    color: #22252B;
-    font-size: 14px;
-}
-
-/**
-Decoration navbar
-**/
-
-#navbar {
-    display: none;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 25px;
 }
 
-li {
-    float: left;
-    background-color: #E2F3F9;
-}
-
-li a {
-    display: block;
-    text-decoration: none;
+/**
+Decorating header
+**/
+header {
+    color: #E2F3F9;
     text-align: center;
-}
-
-li a:hover:not(.active) {
-    background-color: #CAE0E9;
-    text-decoration: none;
-}
-
-li a:active: {
-    color: #E2F3F9;
-}
-
-li a.active {
-    background-color: #22252B;
-    color: #E2F3F9;
-}
-
-li a.active:hover {
-    text-decoration: none;
-}
-
-@media screen and (max-width: 400px) {
-    li {
-        float: none;
-        width: 100px;
-        margin: auto;
-    }
+    margin-top: 1.5em;
+    font-size: 35px;
 }
 
 /**
@@ -85,44 +31,32 @@ Decorating assignment-placeholders
 **/
 
 .assignments {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    color: #E2F3F9;
+}
+
+.assignments-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
     color: #22252B;
-    overflow: scroll;
     margin: auto;
 }
 
-.column {
-    float: left;
+.assignment {
     padding: 1em;
     margin: 0.5em 1em 1em 0.5em;
     background-color: #E2F3F9;
     text-align: center;
 }
 
-.assignment-item {
-    float: left;
-    padding: 1em;
-    margin: 0.5em 1em 1em 0.5em;
-    background-color: #E2F3F9;
-    text-align: center;
-}
-
-.column:hover {
+.assignment:hover {
     background-color: #CAE0E9;
     text-decoration: none;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-}
-
-#assignment-items {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    display: flex;
-    justify-content: center;
-}
 
 /**
 Clear floats after columns
@@ -155,13 +89,7 @@ a:hover {
 Decorating divs
 **/
 
-.fillerText {
-    width: 61%;
-    background-color: #E2F3F9;
-    padding: 1.5em;
-    margin: auto;
-    margin-top: 1em;
-}
+
 
 /**
 Decorating footer
@@ -177,6 +105,7 @@ footer {
     right: 0;
     width: 100%;
     overflow: hidden;
+    font-size: 14px;
 }
 
 
