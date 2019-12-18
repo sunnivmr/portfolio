@@ -47,8 +47,13 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
+
 /**
-Decorating about
+Decorating text-fields
 **/
 
 .about {
@@ -58,11 +63,8 @@ Decorating about
     padding: 1em;
 }
 
-h2 {
-    text-align: center;
-}
 
-.about-text {
+.text-box {
     background-color: #E2F3F9;
     color: #22252B;
     opacity: 0.85;
@@ -132,8 +134,53 @@ Decorating tasks
 **/
 
 .tasks {
+    opacity: 95%;
     margin: auto;
+    width: 70%;
+    padding: 1em;
+    font-weight: bold;
 }
+
+.tasks-grid {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+    color: #22252B;
+    margin: 0 auto;
+}
+
+.task {
+    opacity: 0.85;
+    padding: 1em;
+    background-color: #E2F3F9;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.task:link {
+    color: #22252B;
+    text-decoration: none;
+}
+
+.task:visited {
+    color: #22252B;
+    text-decoration: none;
+}
+
+.task:hover {
+    opacity: 1;
+    box-shadow: 5px 5px;
+}
+
+.task-content {
+    margin-top: 4em;
+}
+
+.task-content h2 {
+    text-align: left;
+}
+
 
 /**
 Decorating links in footer
