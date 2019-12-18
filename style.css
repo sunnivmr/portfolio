@@ -11,6 +11,10 @@
 
 
 body {
+    background-image: url("img/gradient_background_square.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: #9CB2CE;
     color: #E2F3F9;
     font-family: Avenir; sans-serif;
@@ -220,6 +224,7 @@ Decorating footer
 footer {
     background-color: #E2F3F9;
     color: #22252B;
+    opacity: 80%;
     position: relative;
     margin-top: 8em;
     left: 0;
