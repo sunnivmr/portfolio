@@ -12,9 +12,23 @@
 
 body {
     background-color: #9CB2CE;
+    color: #E2F3F9;
     font-family: Avenir; sans-serif;
     margin: 0;
     padding: 0;
+}
+
+/**
+Decoration "Return to homepage"
+**/
+
+.home {
+    padding: 1em;
+}
+
+.home a {
+    color: #E2F3F9;
+    text-decoration: none;
 }
 
 /**
@@ -22,14 +36,13 @@ Decoration header
 **/
 
 header {
-    color: #E2F3F9;
     margin-top: 1.5em;
     width: 60%;
     margin: auto;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 0.5em;
     text-align: center;
 }
@@ -39,7 +52,6 @@ Decorating about
 **/
 
 .about {
-    color: #E2F3F9;
     margin-top: 1.5em;
     width: 70%;
     margin: auto;
@@ -68,7 +80,6 @@ Decorating assignment grid objects
     width: 70%;
     text-align: center;
     padding: 1em;
-    color: #E2F3F9;
 }
 
 .assignments-grid {
@@ -78,14 +89,6 @@ Decorating assignment grid objects
     grid-gap: 1em;
     color: #22252B;
     margin: 0 auto;
-}
-
-@media (min-width: 600px) {
-    .assignments-grid {grid-template-columns: repeat(2, 1fr);}
-}
-
-@media (min-width: 900px) {
-    .assignments-grid {grid-template-columns: repeat(3, 1fr);}
 }
 
 .assignment {
@@ -112,6 +115,25 @@ Decorating assignment grid objects
 }
 
 
+/**
+Decorating other-assignments grid
+**/
+.other-assignments-grid {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1em;
+    color: #22252B;
+    margin: 0 auto;
+}
+
+/**
+Decorating tasks
+**/
+
+.tasks {
+    margin: auto;
+}
 
 /**
 Decorating links in footer
@@ -129,12 +151,6 @@ footer a:visited {
 footer a:hover {
     color: #9CB2CE;
 }
-
-
-/**
-Decorating divs
-**/
-
 
 
 /**
@@ -171,6 +187,22 @@ footer img {
     width: 10em;
     position: absolute;
     right: 0;
+}
+
+/**
+Responsivity
+**/
+
+@media (min-width: 600px) {
+    .assignments-grid {grid-template-columns: repeat(2, 1fr);}
+    .other-assignments-grid {grid-template-columns: repeat(2, 1fr);}
+    h1 {font-size: 70px;}
+}
+
+@media (min-width: 900px) {
+    .assignments-grid {grid-template-columns: repeat(3, 1fr);}
+    .other-assignments-grid {grid-template-columns: repeat(4, 1fr);}
+    h1 {font-size: 90px;}
 }
 
 @media screen and (max-width: 400px) {
