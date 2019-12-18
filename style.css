@@ -12,7 +12,7 @@
 
 body {
     background-color: #9CB2CE;
-    font-family: Roboto;
+    font-family: Avenir; sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -40,8 +40,9 @@ Decorating about
 .about {
     color: #E2F3F9;
     margin-top: 1.5em;
-    width: 62%;
+    width: 70%;
     margin: auto;
+    padding: 1em;
 }
 
 .about h2 {
@@ -58,12 +59,12 @@ Decorating about
 
 
 /**
-Decorating assignment-placeholders
+Decorating assignment grid objects
 **/
 
 .assignments {
-    width: 70%;
     margin: auto;
+    width: 70%;
     text-align: center;
     padding: 1em;
     color: #E2F3F9;
@@ -71,15 +72,24 @@ Decorating assignment-placeholders
 
 .assignments-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1em;
     color: #22252B;
-    margin: auto;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .assignments-grid {grid-template-columns: repeat(2, 1fr);}
+}
+
+@media (min-width: 900px) {
+    .assignments-grid {grid-template-columns: repeat(3, 1fr);}
 }
 
 .assignment {
     opacity: 0.85;
     padding: 1em;
-    margin: 0.5em 1em 1em 0.5em;
     background-color: #E2F3F9;
     border-radius: 0.5em;
     text-align: center;
