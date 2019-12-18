@@ -59,6 +59,7 @@ Decorating text-fields
 .about {
     margin-top: 1.5em;
     width: 70%;
+    max-width: 700px;
     margin: auto;
     padding: 1em;
 }
@@ -80,6 +81,7 @@ Decorating assignment grid objects
 .assignments {
     margin: auto;
     width: 70%;
+    max-width: 700px;
     text-align: center;
     padding: 1em;
 }
@@ -137,6 +139,7 @@ Decorating tasks
     opacity: 95%;
     margin: auto;
     width: 70%;
+    max-width: 900px;
     padding: 1em;
 }
 
@@ -145,6 +148,8 @@ Decorating tasks
     grid-auto-rows: auto;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 1em;
+    max-width: 700px;
+    margin: auto;
     color: #22252B;
 }
 
