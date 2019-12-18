@@ -71,7 +71,8 @@ Decorating assignment-placeholders
 
 .assignments-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
     color: #22252B;
     margin: auto;
 }
@@ -79,7 +80,6 @@ Decorating assignment-placeholders
 .assignment {
     opacity: 0.85;
     padding: 1em;
-    margin: 0.5em 1em 1em 0.5em;
     background-color: #E2F3F9;
     border-radius: 0.5em;
     text-align: center;
