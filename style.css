@@ -226,6 +226,10 @@ Decorating activities
     font-size: small;
 }
 
+.activity-content a:hover {
+    background-image: url("./img/gradient_background_square.png");
+}
+
 .activity-text {
     font-size: small;
 }
