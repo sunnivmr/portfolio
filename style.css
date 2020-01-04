@@ -139,6 +139,11 @@ Decorating other-assignments grid
 Decorating tasks
 **/
 
+.task-number {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
 .tasks {
     opacity: 95%;
     margin: auto;
@@ -195,7 +200,7 @@ Decorating tasks
 }
 
 .task-content h2 {
-    text-align: left;
+    text-align: center;
 }
 
 
