@@ -205,6 +205,32 @@ Decorating tasks
 
 
 /**
+Decorating activities
+**/
+
+.activity-content img {
+    width: 100%;
+}
+
+.activity-content audio {
+    width: 100%;
+}
+
+.activity-content a {
+    background-color: #22252B;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    margin-top: 1em;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.activity-text {
+    font-size: small;
+}
+
+/**
 Decorating links in footer
 **/
 footer a:link {
