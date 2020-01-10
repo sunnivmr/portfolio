@@ -162,6 +162,9 @@ Decorating tasks
     color: #22252B;
 }
 
+#two-tasks {
+    grid-template-columns: repeat(2, 1fr);
+}
 
 #four-tasks {
     grid-template-columns: repeat(4, 1fr);
@@ -301,12 +304,24 @@ Responsivity
 
 @media (min-width: 750px) {
     #six-tasks {grid-template-columns: repeat(6, 1fr);}
+    .activity-content img {
+        width: 75%;
+    }
+    .activity-content audio {
+        width: 75%;
+    }
 }
 
 @media (min-width: 900px) {
     .assignments-grid {grid-template-columns: repeat(3, 1fr);}
     .other-assignments-grid {grid-template-columns: repeat(4, 1fr);}
     h1 {font-size: 80px;}
+    .activity-content img {
+        width: 60%;
+    }
+    .activity-content audio {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 400px) {
