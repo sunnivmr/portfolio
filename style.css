@@ -17,7 +17,7 @@ body {
     background-size: cover;
     background-color: #9CB2CE;
     color: #E2F3F9;
-    font-family: Avenir; sans-serif;
+    font-family: Avenir, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -70,9 +70,8 @@ Decorating text-fields
 
 
 .text-box {
-    background-color: #E2F3F9;
+    background-color: rgba(226, 243, 249, 0.85);
     color: #22252B;
-    opacity: 0.85;
     padding: 1em;
     border-radius: 0.5em;
 }
@@ -236,12 +235,20 @@ Decorating activities
     font-size: small;
 }
 
+.activity-content p {
+    font-size: small;
+}
+
 .activity-content a:hover {
     background-image: url("./img/gradient_background_square.png");
 }
 
-.activity-text {
-    font-size: small;
+/**
+Decorating unique objects
+**/
+#europe-map {
+    min-width: 10em;
+    max-width: 25em;
 }
 
 /**
