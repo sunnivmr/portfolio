@@ -205,6 +205,36 @@ Decorating tasks
 
 
 /**
+Decorating activities
+**/
+
+.activity-content img {
+    width: 100%;
+}
+
+.activity-content audio {
+    width: 100%;
+}
+
+.activity-content a {
+    background-color: #22252B;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    margin-top: 1em;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.activity-content a:hover {
+    background-image: url("./img/gradient_background_square.png");
+}
+
+.activity-text {
+    font-size: small;
+}
+
+/**
 Decorating links in footer
 **/
 footer a:link {
@@ -266,7 +296,7 @@ Responsivity
 @media (min-width: 600px) {
     .assignments-grid {grid-template-columns: repeat(2, 1fr);}
     .other-assignments-grid {grid-template-columns: repeat(2, 1fr);}
-    h1 {font-size: 70px;}
+    h1 {font-size: 60px;}
 }
 
 @media (min-width: 750px) {
@@ -276,7 +306,7 @@ Responsivity
 @media (min-width: 900px) {
     .assignments-grid {grid-template-columns: repeat(3, 1fr);}
     .other-assignments-grid {grid-template-columns: repeat(4, 1fr);}
-    h1 {font-size: 90px;}
+    h1 {font-size: 80px;}
 }
 
 @media screen and (max-width: 400px) {
