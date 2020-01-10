@@ -17,7 +17,7 @@ body {
     background-size: cover;
     background-color: #9CB2CE;
     color: #E2F3F9;
-    font-family: Avenir; sans-serif;
+    font-family: Avenir, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -70,9 +70,8 @@ Decorating text-fields
 
 
 .text-box {
-    background-color: #E2F3F9;
+    background-color: rgba(226, 243, 249, 0.85);
     color: #22252B;
-    opacity: 0.85;
     padding: 1em;
     border-radius: 0.5em;
 }
@@ -211,6 +210,13 @@ Decorating tasks
 Decorating activities
 **/
 
+.activity-grid {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-gap: 1em;
+    grid-template-columns: repeat(1, 1fr);
+}
+
 .activity-content img {
     width: 100%;
 }
@@ -229,12 +235,20 @@ Decorating activities
     font-size: small;
 }
 
+.activity-content p {
+    font-size: small;
+}
+
 .activity-content a:hover {
     background-image: url("./img/gradient_background_square.png");
 }
 
-.activity-text {
-    font-size: small;
+/**
+Decorating unique objects
+**/
+#europe-map {
+    min-width: 10em;
+    max-width: 25em;
 }
 
 /**
@@ -300,15 +314,13 @@ Responsivity
     .assignments-grid {grid-template-columns: repeat(2, 1fr);}
     .other-assignments-grid {grid-template-columns: repeat(2, 1fr);}
     h1 {font-size: 60px;}
+
 }
 
 @media (min-width: 750px) {
     #six-tasks {grid-template-columns: repeat(6, 1fr);}
-    .activity-content img {
-        width: 75%;
-    }
-    .activity-content audio {
-        width: 75%;
+    .activity-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -316,11 +328,14 @@ Responsivity
     .assignments-grid {grid-template-columns: repeat(3, 1fr);}
     .other-assignments-grid {grid-template-columns: repeat(4, 1fr);}
     h1 {font-size: 80px;}
-    .activity-content img {
-        width: 60%;
+}
+
+@media (min-width: 1200px) {
+    .activity-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .activity-content audio {
-        width: 60%;
+    #two-activities {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
