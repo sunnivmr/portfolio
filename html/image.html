@@ -1,209 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Práctica de Imagen</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- Wrapper -->
     <div class="wrapper">
+      <!-- Return to home -->
+      <div class="home">
+        <a href="/">&larr; Vuelve a la página inicial</a>
+      </div>
 
-        <!-- Return to home -->
-        <div class="home">
-            <a href="/">&larr; Vuelve a la página inicial</a>
+      <!-- Header -->
+      <header>
+        <h1>Práctica de Imagen</h1>
+      </header>
+
+      <!-- Content -->
+
+      <!-- Tasks -->
+      <div class="tasks">
+        <h3 style="text-align: center">Salta a una tarea</h3>
+        <div class="tasks-grid">
+          <a href="#task1" class="task">1</a>
+          <a href="#task2" class="task">2</a>
+          <a href="#task3" class="task">3</a>
+          <a href="#task4" class="task">4</a>
+          <a href="#task5" class="task">5</a>
         </div>
 
-        <!-- Header -->
-        <header>
-            <h1>Práctica de Imagen</h1>
-        </header>
+        <div id="task1" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">1</h2>
+            <h2 class="taskTitle">Introducción - Objetivos</h2>
+          </div>
 
-        <!-- Content -->
-
-        <!-- Tasks -->
-        <div class="tasks">
-            <h3 style="text-align: center">Salta a una tarea</h3>
-            <div class="tasks-grid">
-                <a href="#task1" class="task">1</a>
-                <a href="#task2" class="task">2</a>
-                <a href="#task3" class="task">3</a>
-                <a href="#task4" class="task">4</a>
-                <a href="#task5" class="task">5</a>
+          <div class="text-box">
+            <div class="activity-content">
+              <h4>Ejercicio 1</h4>
+              <div class="activity-grid" id="two-activities">
+                <div>
+                  <img
+                    src="../assignments/image/task1/Noruega.bmp"
+                    alt="Noruega.bmp"
+                  />
+                  <p>Noruega.bmp</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/image/task1/task1.PNG"
+                    alt="Tabla sobre Noruega.bmp"
+                  />
+                  <p>Tabla sobre el imágen Noruega.bmp</p>
+                </div>
+              </div>
             </div>
-
-            <div id="task1" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">1</h2>
-                    <h2 class="taskTitle">Introducción - Objetivos</h2>
-                </div>
-
-                <div class="text-box">
-                    <div class="activity-content">
-                        <h4>Ejercicio 1</h4>
-                        <div class="activity-grid" id="two-activities">
-                            <div><img src="../assignments/image/task1/Noruega.bmp" alt="Noruega.bmp">
-                                <p>Noruega.bmp</p>
-                            </div>
-                            <div><img src="../assignments/image/task1/task1.PNG" alt="Tabla sobre Noruega.bmp">
-                                <p>Tabla sobre el imágen Noruega.bmp</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="task2" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">2</h2>
-                    <h2 class="taskTitle">Conversión a diferentes espacios de representación</h2>
-                </div>
-                <div class="text-box">
-                    <div class="activity-content">
-                        <h4>Ejercicio 2</h4>
-                        <p>Cambiar modelos diferentes de color</p>
-                        <div class="activity-grid">
-                            <div><img src="../assignments/image/task2/Original_image.PNG" alt="Original image">
-                                <p>El imágen original</p>
-                            </div>
-                            <div><img src="../assignments/image/task2/CMYK_alfa.PNG" alt="CMYK alpha">
-                                <p>Cambiar CMYK alfa</p>
-                            </div>
-                            <div><img src="../assignments/image/task2/CMYK_Gris.PNG" alt="CMYK grey">
-                                <p>Cambiar CMYK gris</p>
-                            </div>
-                            <div><img src="../assignments/image/task2/HSL_alfa.PNG" alt="HSL alpha">
-                                <p>Cambiar HSL alfa</p>
-                            </div>
-                            <div><img src="../assignments/image/task2/HSL_Gris.PNG" alt="HSL grey">
-                                <p>Cambiar HSL gris</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="task3" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">3</h2>
-                    <h2 class="taskTitle">Conversión a diferentes profundidades de color. Verdadero color. Paleta de color. Dithering.</h2>
-                </div>
-
-                <div class="text-box">
-                    <h4>Ejercicio 3</h4>
-                    <div class="activity-content">
-                        <p>Paletas de diferentes colores</p>
-                        <div class="activity-grid">
-                            <div>
-                                <img src="../assignments/image/task3/Chamaeleo_original.PNG" alt="Original image">
-                                <p>Imágen original</p>
-                            </div>
-                            <div>
-                                <img src="../assignments/image/task3/indexada_16.PNG" alt="16 colors">
-                                <p>Indexada 16 colores</p>
-                            </div>
-                            <div>
-                                <img src="../assignments/image/task3/indexada_256.PNG" alt="256 colors">
-                                <p>Indexada 256 colores</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h4>Ejercicio 4</h4>
-                    <div class="activity-content">
-                        <p>Diferentes opciones de difuminado</p>
-                        <div class="activity-grid">
-                            <div>
-                                <img src="../assignments/image/task4/difuminado_Floyd_Steinberg_normal.PNG" alt="Original image">
-                                <p>Floyd-Steinberg Normal</p>
-                            </div>
-                            <div>
-                                <img src="../assignments/image/task4/difuminado_Floyd_Steinberg_color_reducido.PNG" alt="Reduced color">
-                                <p>Floyd-Steinberg Sangrado de color reducido</p>
-                            </div>
-                            <div>
-                                <img src="../assignments/image/task4/difuminado_posicionado.PNG" alt="Positioned">
-                                <p>Floyd-Steinberg Posicionado</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h4>Actividad 1</h4>
-                    <p>TODO: Añade la tabla sobre el trabajo en los ejercicios 3 y 4.</p>
-                </div>
-            </div>
-            <div id="task4" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">4</h2>
-                    <h2 class="taskTitle">Mapa sensible</h2>
-                </div>
-                <div class="text-box">
-                    <h4>Ejercicio 5</h4>
-                    <div class="activity-content">
-                        <p>Mapa sensible de Europa</p>
-                            <img id="europe-map" src="../assignments/image/task5/mapaEuro.png" alt="Europe" usemap="#europe-map">
-                            <map name="europe-map">
-                                <area shape="circle" coords="60, 300, 30" alt="Spain" href="../assignments/image/task5/spain.gif" target="_blank"/>
-                                <area shape="circle" coords="120, 240, 30" alt="France" href="../assignments/image/task5/france.gif" target="_blank">
-                                <area shape="circle" coords="180, 120, 30" alt="Norway" href="../assignments/image/task5/norway.gif" target="_blank">
-                                <area shape="circle" coords="170, 210, 30" alt="Germany" href="../assignments/image/task5/germany.gif" target="_blank">
-                                <area shape="circle" coords="260, 325, 30" alt="Greece" href="../assignments/image/task5/greece.gif" target="_blank">
-                            </map>
-                    </div>
-                </div>
-            </div>
-            <div id="task5" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">5</h2>
-                    <h2 class="taskTitle">Cuestiones avanzadas: Dominio de la frecuencia</h2>
-                </div>
-                <div class="text-box">
-                    <small>Contenido</small>
-                </div>
-            </div>
+          </div>
         </div>
-
-        <!-- Assignments -->
-        <div class="assignments">
-            <h2>Elige otra prática</h2>
-            <div class="other-assignments-grid">
-                <a href="audio.html" class="assignment">
-                    <h2>Audio</h2>
-                </a>
-                <a href="text.html" class="assignment">
-                    <h2>Texto</h2>
-                </a>
-                <a href="imagen.html" class="assignment">
-                    <h2>Imagen</h2>
-                </a>
-                <a href="streaming.html" class="assignment">
-                    <h2>Streaming</h2>
-                </a>
+        <div id="task2" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">2</h2>
+            <h2 class="taskTitle">
+              Conversión a diferentes espacios de representación
+            </h2>
+          </div>
+          <div class="text-box">
+            <div class="activity-content">
+              <h4>Ejercicio 2</h4>
+              <p>Cambiar modelos diferentes de color</p>
+              <div class="activity-grid">
+                <div>
+                  <img
+                    src="../assignments/image/task2/Original_image.PNG"
+                    alt="Original image"
+                  />
+                  <p>El imágen original</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/image/task2/CMYK_alfa.PNG"
+                    alt="CMYK alpha"
+                  />
+                  <p>Cambiar CMYK alfa</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/image/task2/CMYK_Gris.PNG"
+                    alt="CMYK grey"
+                  />
+                  <p>Cambiar CMYK gris</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/image/task2/HSL_alfa.PNG"
+                    alt="HSL alpha"
+                  />
+                  <p>Cambiar HSL alfa</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/image/task2/HSL_Gris.PNG"
+                    alt="HSL grey"
+                  />
+                  <p>Cambiar HSL gris</p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+        <div id="task3" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">3</h2>
+            <h2 class="taskTitle">
+              Conversión a diferentes profundidades de color. Verdadero color.
+              Paleta de color. Dithering.
+            </h2>
+          </div>
 
-        <!-- Footer -->
-        <footer>
-            <div class="creators">
-                <p><strong>Creadores</strong><br>
-                    <a href="https://github.com/sunnivmr" target="_blank">Sunniva Mathea Runde</a><br>
-                    <a href="https://github.com/crispul93" target="_blank">Cristian Camilo Pulgarín</a><br>
-                    Lizzeth Celis Sepulveda</p>
+          <div class="text-box">
+            <div class="activity-content">
+              <h4>Ejercicio 3</h4>
+              <p>Paletas de diferentes colores</p>
+              <div class="activity-grid">
+                <div>
+                  <img
+                    src="../assignments/image/task3/Chamaeleo_original.PNG"
+                    alt="Original image"
+                  />
+                  <p>Imágen original</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/image/task3/indexada_16.PNG"
+                    alt="16 colors"
+                  />
+                  <p>Indexada 16 colores</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/image/task3/indexada_256.PNG"
+                    alt="256 colors"
+                  />
+                  <p>Indexada 256 colores</p>
+                </div>
+              </div>
+            </div>
 
+            <div class="activity-content">
+              <h4>Ejercicio 4</h4>
+              <p>Diferentes opciones de difuminado</p>
+              <div class="activity-grid">
+                <div>
+                  <img
+                    src="../assignments/image/task4/difuminado_Floyd_Steinberg_normal.PNG"
+                    alt="Original image"
+                  />
+                  <p>Floyd-Steinberg Normal</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/image/task4/difuminado_Floyd_Steinberg_color_reducido.PNG"
+                    alt="Reduced color"
+                  />
+                  <p>Floyd-Steinberg Sangrado de color reducido</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/image/task4/difuminado_posicionado.PNG"
+                    alt="Positioned"
+                  />
+                  <p>Floyd-Steinberg Posicionado</p>
+                </div>
+              </div>
             </div>
-            <div class="course">
-                <p><strong>34012</strong><br>
-                    <a href="https://www.upv.es/pls/oalu/sic_asi.ficha_asig?p_asi=34012&p_caca=2019&p_idioma=i&p_vista=&p_tit=2255" target="_blank">Technologías Multimedia Web</a></p>
-            </div>
-            <div class="upv">
-                <img src="/img/upv_logo_black.png" alt="Universitat Politécnica de València"></img>
-            </div>
-        </footer>
 
+            <div class="activity-content">
+              <h4>Actividad 1</h4>
+              <p>Tabla sobre el trabajo en los ejercicios 3 y 4</p>
+              <img
+                src="../assignments//image/task4/tabla_ejercicios3y4.png"
+                alt="Table exercise 3 and 4"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="task4" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">4</h2>
+            <h2 class="taskTitle">Mapa sensible</h2>
+          </div>
+          <div class="text-box">
+            <div class="activity-content">
+              <h4>Ejercicio 5</h4>
+              <p>
+                Mapa sensible de Europa, haz un click en el país que querías
+                visitar
+              </p>
+              <img
+                id="europe-map"
+                src="../assignments/image/task5/mapaEuro.png"
+                alt="Europe"
+                usemap="#europe-map"
+              />
+              <map name="europe-map">
+                <area
+                  shape="circle"
+                  coords="70, 330, 30"
+                  alt="Spain"
+                  href="../assignments/image/task5/spain.gif"
+                  target="_blank"
+                />
+                <area
+                  shape="circle"
+                  coords="130, 270, 30"
+                  alt="France"
+                  href="../assignments/image/task5/france.gif"
+                  target="_blank"
+                />
+                <area
+                  shape="circle"
+                  coords="190, 125, 30"
+                  alt="Norway"
+                  href="../assignments/image/task5/norway.gif"
+                  target="_blank"
+                />
+                <area
+                  shape="circle"
+                  coords="190, 230, 30"
+                  alt="Germany"
+                  href="../assignments/image/task5/germany.gif"
+                  target="_blank"
+                />
+                <area
+                  shape="circle"
+                  coords="290, 350, 30"
+                  alt="Greece"
+                  href="../assignments/image/task5/greece.gif"
+                  target="_blank"
+                />
+              </map>
+            </div>
+            <div class="activity-content">
+              <h4>Actividad 2</h4>
+              <p>TODO: Añade link a mapa sensible</p>
+            </div>
+          </div>
+        </div>
+        <div id="task5" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">5</h2>
+            <h2 class="taskTitle">
+              Formatos de imágenes. Compresión.
+            </h2>
+          </div>
+          <div class="text-box">
+            <small>Contenido</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Assignments -->
+      <div class="assignments">
+        <h2>Elige otra prática</h2>
+        <div class="other-assignments-grid">
+          <a href="audio.html" class="assignment">
+            <h2>Audio</h2>
+          </a>
+          <a href="text.html" class="assignment">
+            <h2>Texto</h2>
+          </a>
+          <a href="imagen.html" class="assignment">
+            <h2>Imagen</h2>
+          </a>
+          <a href="streaming.html" class="assignment">
+            <h2>Streaming</h2>
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="creators">
+          <p>
+            <strong>Creadores</strong><br />
+            <a href="https://github.com/sunnivmr" target="_blank"
+              >Sunniva Mathea Runde</a
+            ><br />
+            <a href="https://github.com/crispul93" target="_blank"
+              >Cristian Camilo Pulgarín</a
+            ><br />
+            Lizzeth Celis Sepulveda
+          </p>
+        </div>
+        <div class="course">
+          <p>
+            <strong>34012</strong><br />
+            <a
+              href="https://www.upv.es/pls/oalu/sic_asi.ficha_asig?p_asi=34012&p_caca=2019&p_idioma=i&p_vista=&p_tit=2255"
+              target="_blank"
+              >Technologías Multimedia Web</a
+            >
+          </p>
+        </div>
+        <div class="upv">
+          <img
+            src="/img/upv_logo_black.png"
+            alt="Universitat Politécnica de València"
+          />
+        </div>
+      </footer>
     </div>
-
-</body>
-
+  </body>
 </html>
