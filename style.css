@@ -296,7 +296,7 @@ Responsivity
 @media (min-width: 600px) {
     .assignments-grid {grid-template-columns: repeat(2, 1fr);}
     .other-assignments-grid {grid-template-columns: repeat(2, 1fr);}
-    h1 {font-size: 70px;}
+    h1 {font-size: 60px;}
 }
 
 @media (min-width: 750px) {
@@ -306,7 +306,7 @@ Responsivity
 @media (min-width: 900px) {
     .assignments-grid {grid-template-columns: repeat(3, 1fr);}
     .other-assignments-grid {grid-template-columns: repeat(4, 1fr);}
-    h1 {font-size: 90px;}
+    h1 {font-size: 80px;}
 }
 
 @media screen and (max-width: 400px) {
