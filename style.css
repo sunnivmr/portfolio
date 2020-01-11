@@ -73,6 +73,22 @@ Decorating text-fields
   border-radius: 0.5em;
 }
 
+.image-text-box {
+  display: flex;
+}
+
+.image-text-box img {
+  align-self: center;
+  margin-right: 1em;
+  min-width: 100px;
+  max-width: 500px;
+}
+
+.question {
+  font-style: italic;
+  font-weight: bold;
+}
+
 /**
 Decorating assignment grid objects
 **/
@@ -142,7 +158,7 @@ Decorating tasks
   opacity: 95%;
   margin: auto;
   width: 70%;
-  max-width: 900px;
+  max-width: 800px;
   padding: 1em;
 }
 
