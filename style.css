@@ -235,6 +235,10 @@ Decorating activities
   width: 100%;
 }
 
+.activity-content a {
+  display: block;
+}
+
 .button {
   background-color: #22252b;
   border-radius: 0.5em;
