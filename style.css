@@ -236,6 +236,10 @@ Decorating activities
 }
 
 .activity-content a {
+  display: block;
+}
+
+.button {
   background-color: #22252b;
   border-radius: 0.5em;
   padding: 0.2em;
@@ -249,7 +253,7 @@ Decorating activities
   font-size: small;
 }
 
-.activity-content a:hover {
+.button:hover {
   background-image: url("./img/gradient_background_square.png");
 }
 
