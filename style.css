@@ -54,6 +54,10 @@ h2 {
   text-align: center;
 }
 
+p {
+  font-size: small;
+}
+
 /**
 Decorating text-fields
 **/
@@ -228,7 +232,6 @@ Decorating activities
 }
 
 .activity-content img {
-  margin-top: 1em;
   width: 100%;
 }
 
@@ -247,10 +250,6 @@ Decorating activities
   margin-top: 1em;
   color: white;
   text-decoration: none;
-  font-size: small;
-}
-
-.activity-content p {
   font-size: small;
 }
 
@@ -371,6 +370,9 @@ Responsivity
   }
   #two-activities {
     grid-template-columns: repeat(2, 1fr);
+  }
+  #four-activities {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
