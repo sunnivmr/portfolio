@@ -228,6 +228,7 @@ Decorating activities
 }
 
 .activity-content img {
+  margin-top: 1em;
   width: 100%;
 }
 
@@ -236,7 +237,7 @@ Decorating activities
 }
 
 .activity-content a {
-  display: block;
+  font-size: small;
 }
 
 .button {
@@ -262,6 +263,16 @@ Decorating unique objects
 **/
 #europe-map {
   max-width: 397px;
+}
+
+.tall-image {
+  min-width: 100px;
+  max-width: 300px;
+}
+
+.wide-image {
+  min-width: 100px;
+  max-width: 500px;
 }
 
 /**
