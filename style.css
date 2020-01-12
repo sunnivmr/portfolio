@@ -297,6 +297,11 @@ Decorating footer
 
 footer {
   background-color: #e2f3f9;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  z-index: 100;
   color: #22252b;
   opacity: 80%;
   position: relative;
@@ -310,11 +315,7 @@ footer {
 }
 
 footer div {
-  float: left;
-  width: 33.33%;
   padding: 10px;
-  position: absolute;
-  bottom: 0;
 }
 
 footer div.course {
