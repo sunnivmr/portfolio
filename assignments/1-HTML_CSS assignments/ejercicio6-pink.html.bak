@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title> Ejercicio 6 - Media Queries pink </title>
+    <meta content="Cristian C. Pulgarín, Sunniva M. Runde y Lizzeth S.Celis"
+
+      name="author">
+    <meta content="Práctica 1 de Texto - TMW, MUGI 2019/2020" name="description">
+    <meta content="HTML, CSS, Multidispositivos, validación web" name="keywords">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="css/css3/pink.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="caja">
+      <p style="text-align: right;">Lizzeth S. Celis Sepulveda </p>
+      <p style="text-align: right;">Cristian C. Pulgarín Ospian</p>
+      <p style="text-align: right;">Sunniva M. Runde</p>
+      <br>
+      <br>
+      <h1 id="estiloh1"><a><u>Práctica 1. HTML_CSS</u>.</a></h1>
+      <h2>Ejercicio 1. Edición de código HTML utilizando BlueGriffon</h2>
+      <h3>Parte I. Barra de formatos</h3>
+      <div id="estilo3columnas">
+        <h1>Encabezado 1</h1>
+        <h2>Encabezado 2</h2>
+        <h3>Encabezado 3</h3>
+        <h4>Encabezado 4</h4>
+        <h5>Encabezado 5</h5>
+        <h6>Encabezado 6</h6>
+        <pre>Preformateado</pre>
+        <div>Contenedor genérico</div>
+      </div>
+      <br>
+      <br>
+      <h3>Parte II. Barra de iconos</h3>
+      <p><u><b>Ejemplo de tabla:</b></u></p>
+      <div>
+        <table style="width: 50%; height:50%;" border="2">
+          <tbody>
+            <tr>
+              <td colspan="4" style="text-align: center;"><b>Números
+                  de teléfono</b></td>
+            </tr>
+            <tr>
+              <td rowspan="3" style="width: 20%; height: 20%; text-align: center;"><b>
+                  Imagen </b></td>
+            </tr>
+            <tr>
+              <td style="width: 30%;height: 20%;"><b>Nombre</b></td>
+              <td style="width: 30%;height: 20%;"><b>Apellido </b></td>
+              <td style="width: 30%;height: 20%;"><b>Teléfono</b></td>
+            </tr>
+            <tr>
+              <td>Eustaquia<br>
+              </td>
+              <td>García<br>
+              </td>
+              <td>963.123.456</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br>
+      <br>
+      <p><u><b>Ejemplo de enlaces:</b></u></p>
+      <ul id="estiloul">
+        <li>Internos: <a href="#P1">Practica 1</a></li>
+        <li>Externos: Ir al <a href="http://www.upv.es/" target="_blank">Portal
+            de la Universitat Politècnica de València</a></li>
+      </ul>
+      <br>
+      <p><u><b>Ejemplo de fichero de imágenes:</b></u></p>
+      <p><img src="file:///C:/Users/Lizzeth/Desktop/TMW_P1-Texto/vector-y-pixel-fuente.jpg"
+
+          alt="ejemplo mapa bits vs vector" title="mapa-bits-vs-vector"></p>
+      <br>
+      <p><u><b>Ejemplo de fichero de audio:</b></u></p>
+      <p style="text-align: right;"></p>
+      <br>
+      <p><audio src="file:///C:/Users/Lizzeth/Desktop/TMW_P1-Texto/the-beatles-let-it-be.mp3"
+
+          preload="none" controls="controls"></audio></p>
+      <br>
+      <br>
+      <p><u><b>Ejemplo de fichero de vídeo:</b></u></p>
+      <p><video src="file:///C:/Users/Lizzeth/Desktop/TMW_P1-Texto/videoplayback.mp4"
+
+          poster="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAFoCAYAAADHMkpRAAAHV0lEQVR4nO3WubHlMBAEQT767/OuB18AGDiiUki9Z6R6fr/fPwAAOp7dAwAAWEsAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAk973nbJ7PwDQIwAnCUAA4DYCcJIABABuIwAnCUAA4DYCcJIABABuIwAnCUAA4DYCcJIABABuIwAnCUAA4DYCEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADEC8HDv+/5p9z4A4D4C8HACEAD4mgA8nAAEAL4mAA8nAAGArwnAwwlAAOBrAvBwAhAA+JoAPJwABAC+JgAPJwABgK8JwM0EHgCwmgDcTAACAKsJwM0EIACwmgDcTAACAKsJwM0EIACwmgDcTAACAKsJwM0EIACwmgDcTAACAKsJQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQEw+AN/33Wr3/t3/BwDWE4ACEACIEYACEACIEYACEACIEYACEACIEYACEACIEYACEACIEYACEACIyQcgAECNAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACADnP80zZvX/6/t0DAABWE4AHjAAAWEkAHjACAGAlAXjACACAlQTgASMAAFYSgAeMAABYSQAeMAIAYCUBeMAIAADWEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAS41PM8f9q9DziXAAS4lAAERglAgEsJQGCUAAS4lAAERglAgEsJQGCUAAS4lAAERglAgEsJQGCUAAS4lAAERglAgEsJQGCUAAS4lAAERglAgEsJQGCUAAS4lAAERglAgEsJQGCUAAS4lAAERglAgEsJQGCUAAS4lAAERglAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDECEAAgBgBCAAQIwABAGIEIABAjAAEAIgRgAAAMQIQACBGAAIAxAhAAIAYAQgAECMAAQBiBCAAQIwABACIEYAAADECEAAgRgACAMQIQACAGAEIABAjAAEAYgQgAECMAAQAiBGAAAAxAhAAIEYAAgDE/Af4R0Gm4st6gwAAAABJRU5ErkJggg=="
+
+          preload="none" controls="controls"></video></p>
+      <br>
+      <br>
+      <p id="estilop"> Ejemplo de párrafo con texto justificado.
+        Ejemplo de párrafo con texto justificado. Ejemplo de párrafo
+        con texto justificado. Ejemplo de párrafo con texto
+        justificado. Ejemplo de párrafo con texto justificado. Ejemplo
+        de párrafo con texto justificado. Ejemplo de párrafo con texto
+        justificado. Ejemplo de párrafo con texto justificado. Ejemplo
+        de párrafo con texto justificado. </p>
+      <br>
+      <br>
+      <p>Este párrafo no tiene el texto justificado. Este párrafo no
+        tiene el texto justificado. Este párrafo no tiene el texto
+        justificado. Este párrafo no tiene el texto justificado. Este
+        párrafo no tiene el texto justificado. Este párrafo no tiene
+        el texto justificado. Este párrafo no tiene el texto
+        justificado. Este párrafo no tiene el texto justificado. Este
+        párrafo no tiene el texto justificado. Este párrafo no tiene
+        el texto justificado. Este párrafo no tiene el texto
+        justificado.</p>
+      <br>
+      <br>
+      <p id="rotacion">Prueba de la aplicación de 30º en la hoja de
+        estilo: Trasnformaciones </p>
+      <br>
+      <br>
+    </div>
+  </body>
+</html>
