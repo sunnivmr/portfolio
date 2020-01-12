@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="voz_efectos_aplauso2_data" version="1.3.0" audacityversion="2.3.3" sel0="15.7783713572" sel1="17.6205162365" vpos="0" h="0.0000000000" zoom="24.9708915502" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="COMMENTS" value=" 00000000 00000210 000005F2 0000000000016FBE 00000000 00005970 00000000 00000000 00000000 00000000 00000000 00000000"/>
+		<tag name="TITLE" value="aplausos_al_finalizar_un_concierto_en_una_plaza_4"/>
+		<tag name="Encoded by" value="iTunes 11.4"/>
+	</tags>
+	<wavetrack name="Voz" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="1" solo="0" rate="44100" gain="13.631556" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="521216">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808b86.au" len="262144" min="-0.344582" max="0.371818" rms="0.035812"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808f3a.au" len="259072" min="-0.181528" max="0.184094" rms="0.01898"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Voz + efecto" isSelected="1" height="234" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="44100" gain="3.981072" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="521216">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808e39.au" len="262144" min="-0.293074" max="0.325991" rms="0.034514"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808566.au" len="259072" min="-0.167266" max="0.161883" rms="0.018454"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="street-daniel_simon" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="44100" gain="0.112202" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="521216">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808d07.au" len="189850" min="-0.9776" max="0.977478" rms="0.36829"/>
+				</waveblock>
+				<waveblock start="189850">
+					<simpleblockfile filename="e0808fbf.au" len="169770" min="-0.97757" max="0.977539" rms="0.429329"/>
+				</waveblock>
+				<waveblock start="359620">
+					<simpleblockfile filename="e08086da.au" len="161596" min="-0.977417" max="0.977478" rms="0.207414"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="0.598591566086"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="tos" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="22050" gain="0.316228" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="63360">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808722.au" len="63360" min="-0.914173" max="0.907809" rms="0.074811"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="5.23200028" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="63360">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808722.au" len="63360" min="-0.914173" max="0.907809" rms="0.074811"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="9.24748632" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="56701">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808811.au" len="56701" min="-0.914173" max="0.907809" rms="0.079082"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="aplausos_al_finalizar_un_concierto" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="8000" gain="0.507522" pan="0.0" colorindex="0">
+		<waveclip offset="11.81895692" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="22186">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808815.au" len="4844" min="-0.243053" max="0.200266" rms="0.032397"/>
+				</waveblock>
+				<waveblock start="4844">
+					<simpleblockfile filename="e0808cbb.au" len="17342" min="-0.253807" max="0.237705" rms="0.036791"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
