@@ -1,169 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Práctica de Audio</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- Wrapper -->
     <div class="wrapper">
+      <!-- Return to home -->
+      <div class="home">
+        <a href="../index.html">&larr; Vuelve a la página inicial</a>
+      </div>
 
-        <!-- Return to home -->
-        <div class="home">
-            <a href="../index.html">&larr; Vuelve a la página inicial</a>
+      <!-- Header -->
+      <header>
+        <h1>Práctica de Audio</h1>
+      </header>
+
+      <!-- Content -->
+
+      <!-- Tasks -->
+      <div class="tasks">
+        <h3 style="text-align: center">Salta a una sección</h3>
+        <div class="tasks-grid">
+          <a href="#task1" class="task">1</a>
+          <a href="#task2" class="task">2</a>
+          <a href="#task3" class="task">3</a>
+          <a href="#task4" class="task">4</a>
+          <a href="#task5" class="task">5</a>
         </div>
 
-        <!-- Header -->
-        <header>
-            <h1>Práctica de Audio</h1>
-        </header>
+        <div id="task1" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">1</h2>
+            <h2 class="task-title">Subsistemas de audio</h2>
+          </div>
 
-        <!-- Content -->
-
-        <!-- Tasks -->
-        <div class="tasks">
-            <h3 style="text-align: center">Salta a una sección</h3>
-            <div class="tasks-grid">
-                <a href="#task1" class="task">1</a>
-                <a href="#task2" class="task">2</a>
-                <a href="#task3" class="task">3</a>
-                <a href="#task4" class="task">4</a>
-                <a href="#task5" class="task">5</a>
+          <div class="text-box">
+            <div class="activity-content">
+              <h4>Actividad 1</h4>
+              <img
+                src="../assignments/audio/imagenes word/task1.PNG"
+                alt="Audio Actividad 1"
+              />
+              <p class="activity-text">
+                El sistema de sonido del que dispone nuestro equipo.
+              </p>
             </div>
-
-            <div id="task1" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">1</h2>
-                    <h2 class="task-title">Subsistemas de audio</h2>
-                </div>
-
-                <div class="text-box">
-                    <div class="activity-content">
-                        <h4>Actividad 1</h4>
-                        <img src="../assignments/audio/audio_activity1.PNG" alt="Audio Actividad 1">
-                        <p class="activity-text">El sistema de sonido del que dispone nuestro equipo.</p>
-                    </div>
-                </div>
-
-            </div>
-            <div id="task2" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">2</h2>
-                    <h2 class="task-title">Adquisición y representación de audio a partir de
-                        discos compactos</h2>
-                </div>
-
-                <div class="text-box">
-                    <div class="activity-content">
-                        <h4>Actividad 2</h4>
-                        <p class="activity-text">Añade la tabla sobre audio calidad.</p>
-                    </div>
-                </div>
-
-            </div>
-            <div id="task3" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">3</h2>
-                    <h2 class="task-title">Dominio del tiempo: introducción a la edición de la señal</h2>
-                </div>
-
-                <div class="text-box">
-                    <div class="activity-content">
-                        <h4>Actividad 3</h4>
-                        <p class="activity-text">Versión estéreo de bluesIntro.wav.</p>
-                        <audio controls src="../assignments/audio/bluesIntro_stereo.wav">bluesIntro_stereo.wav</audio>
-                        <a class="button" href="../assignments/audio/bluesIntro_stereo.wav" download>⤓ Descargar bluesIntro_stereo.wav</a>
-
-                    </div>
-                    <div class="activity-content">
-                        <h4>Actividad 4</h4>
-                        <p class="activity-text">TODO: Añade tabla sobre efectos de audio.</p>
-                    </div>
-                    <div class="activity-content">
-                        <h4>Actividad 5</h4>
-                        <p class="activity-text">TODO: Añade captura de pantalla del proceso y añade el fichero mezcla.wav con una duración de 60 segundos.</p>
-                    </div>
-                </div>
-
-
-            </div>
-            <div id="task4" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">4</h2>
-                    <h2 class="task-title">Uso de repositorios para montaje de una banda sonora</h2>
-                </div>
-                <div class="text-box">
-                    <div class="activity-content">
-                        <h4>Actividad 6</h4>
-                        <p class="activity-text">TODO: Añade captura de pantalla del proceso y añade los ficheros bso.aup y bso.wav.</p>
-                    </div>
-                </div>
-            </div>
-            <div id="task5" class="task-content">
-                <div class="task-header">
-                    <h2 class="task-number">5</h2>
-                    <h2 class="task-title">Cuestiones avanzadas: Dominio de la frecuencia</h2>
-                </div>
-                <div class="text-box">
-                    <div class="activity-content">
-                        <h4>Actividad 7</h4>
-                        <p class="activity-text">TODO: Añade contenido.</p>
-                    </div>
-                    <div class="activity-content">
-                        <h4>Actividad 8</h4>
-                        <p class="activity-text">TODO: Añade contenido.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div id="task2" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">2</h2>
+            <h2 class="task-title">
+              Adquisición y representación de audio a partir de discos compactos
+            </h2>
+          </div>
 
+          <div class="text-box">
+            <div class="activity-content">
+              <h4>Actividad 2</h4>
+              <p>
+                Fichero original: CD – El Piano de Miguel Asins Arbó – Pista 1
+                (Track 1)
+              </p>
+              <p>Duración: 03:28 minutos</p>
+              <p>Tamaño: 2,00 KB (2.048 bytes)</p>
+              <div class="activity-grid" id="two-activities">
+                <div>
+                  <img
+                    src="../assignments/audio/imagenes word/A1 propiedades pista 01.png"
+                    alt="Audio propiedades"
+                    class="wide-image"
+                  />
+                  <p>Propiedades pista 01 de audio CD</p>
+                  <img
+                    src="../assignments/audio/imagenes word/A1 duracion pista 01.png"
+                    alt="Audio duración"
+                    class="wide-image"
+                  />
+                  <p>Duración pista 01 de audio CD</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/audio/imagenes word/A1 tabla.png"
+                    alt="Tabla"
+                  />
+                  <p>Tabla de ocupación de formatos de ficheros de audio</p>
+                </div>
+              </div>
+              <p class="question">
+                ¿Cuál cree que representa un mejor compromiso entre ambos?
+              </p>
+              <p>
+                Después de oír todos los ficheros de audio, pensamos que la
+                tiene mejor calidad es el formato en MP4.
+              </p>
+              <audio controls src="../assignments/audio/E2/2_1.wav">
+                2_1.wav
+              </audio>
+              <a class="button" href="../assignments/audio/E2/2_1.wav" download
+                >⤓ Descargar 2_1.wav</a
+              >
+              <audio controls src="../assignments/audio/E2/2_2.flac">
+                2_2.flac
+              </audio>
+              <a class="button" href="../assignments/audio/E2/2_2.flac" download
+                >⤓ Descargar 2_2.flac</a
+              >
+              <audio controls src="../assignments/audio/E2/2_3.mp3">
+                2_3.mp3
+              </audio>
+              <a class="button" href="../assignments/audio/E2/2_3.mp3" download
+                >⤓ Descargar 2_3.mp3</a
+              >
+              <audio controls src="../assignments/audio/E2/2_4.mp3">
+                2_4.mp3
+              </audio>
+              <a class="button" href="../assignments/audio/E2/2_4.mp3" download
+                >⤓ Descargar 2_4.mp3</a
+              >
+              <audio controls src="../assignments/audio/E2/2_5.mp4">
+                2_5.mp4
+              </audio>
+              <a class="button" href="../assignments/audio/E2/2_5.mp4" download
+                >⤓ Descargar 2_5.mp4</a
+              >
+              <audio controls src="../assignments/audio/E2/2_6_2.ogg">
+                2_6_2.ogg
+              </audio>
+              <a
+                class="button"
+                href="../assignments/audio/E2/2_6_2.ogg"
+                download
+                >⤓ Descargar 2_6_2.ogg</a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="task3" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">3</h2>
+            <h2 class="task-title">
+              Dominio del tiempo: introducción a la edición de la señal
+            </h2>
+          </div>
+
+          <div class="text-box">
+            <div class="activity-content">
+              <h4>Actividad 3</h4>
+              <div class="activity-grid" id="two-activities">
+                <div>
+                  <img
+                    src="../assignments/audio/imagenes word/A3 opcion editar duplicar.png"
+                    alt="Audio editar duplicar"
+                  />
+                  <p>Opción Editar | Duplicar</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/audio/imagenes word/A3 Resultado edicion señal audio.png"
+                    alt="Audio resultado"
+                  />
+                  <p>Resultado de la edición de la señal de audio</p>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <p>Audio original</p>
+                  <audio controls src="../assignments/audio/E3/bluesIntro.wav">
+                    bluesIntro.wav
+                  </audio>
+                  <a
+                    class="button"
+                    href="../assignments/audio/E3/bluesIntro.wav"
+                    download
+                    >⤓ Descargar bluesIntro.wav</a
+                  >
+                </div>
+                <div>
+                  <p>Resultado de la edición</p>
+                  <audio controls src="../assignments/audio/E3/3.wav">
+                    E3_3.wav
+                  </audio>
+                  <a
+                    class="button"
+                    href="../assignments/audio/E3/3.wav"
+                    download
+                    >⤓ Descargar 3.wav</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="activity-content">
+              <h4>Actividad 4</h4>
+              <img
+                src="../assignments/audio/imagenes word/A4 tabla.png"
+                alt="A4 Tabla"
+                class="wide-image"
+              />
+              <p>Efectos aplicados a señal de audio mono</p>
+            </div>
+            <div class="activity-content">
+              <h4>Actividad 5</h4>
+              <div class="activity-grid" id="two-activities">
+                <div>
+                  <img
+                    src="../assignments/audio/imagenes word/A5_antes de corta Mezcla 2 audios.PNG"
+                    alt="Dos audios"
+                  />
+                  <p>Unión de dos audios</p>
+                  <img
+                    src="../assignments/audio/imagenes word/A5_Mezcla 2 audios.PNG"
+                    alt="Recorte audios"
+                  />
+                  <p>Recorte audios a 1 minuto</p>
+                </div>
+                <div>
+                  <img
+                    src="../assignments/audio/imagenes word/A5_Mezcla_final audios.PNG"
+                    alt="Resultado mezcla"
+                  />
+                  <p>Resultado mezcla</p>
+                </div>
+              </div>
+              <div>
+                <p>Los dos audios originales</p>
+                <audio controls src="../assignments/audio/E5/BlackFly.mp3">
+                  BlackFly.mp3
+                </audio>
+                <a
+                  class="button"
+                  href="../assignments/audio/E5/BlackFly.mp3"
+                  download
+                  >⤓ Descargar BlackFly.mp3</a
+                >
+                <audio controls src="../assignments/audio/E5/Threshold.mp3">
+                  Threshold.mp3
+                </audio>
+                <a
+                  class="button"
+                  href="../assignments/audio/E5/Threshold.mp3"
+                  download
+                  >⤓ Descargar Threshold.mp3</a
+                >
+              </div>
+              <div>
+                <p>Resultado mezcla los dos audios</p>
+                <audio controls src="../assignments/audio/E5/mezcla_audios.wav">
+                  mezcla_audios.wav
+                </audio>
+                <a
+                  class="button"
+                  href="../assignments/audio/E5/mezcla_audios.wav"
+                  download
+                  >⤓ Descargar mezcla_audios.wav</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="task4" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">4</h2>
+            <h2 class="task-title">
+              Uso de repositorios para montaje de una banda sonora
+            </h2>
+          </div>
+          <div class="text-box">
+            <div class="activity-content">
+              <h4>Actividad 6</h4>
+              <p>1. Voz locución</p>
+              <img
+                src="../assignments/audio/imagenes word/A6_Voz.PNG"
+                alt="Voz locución"
+              />
+
+              <p>2. Voz con efecto de reverberación</p>
+              <img
+                src="../assignments/audio/imagenes word/A6_Voz_reverberancia.PNG"
+                alt="Voz con efecto de reverberación"
+              />
+              <p>3. Ruido de fondo y tos</p>
+              <img
+                src="../assignments/audio/imagenes word/E6_Ruido fondo y tos.PNG"
+                alt="Ruido de fondo y tos"
+              />
+              <p>4. Sonido de aplausos</p>
+              <img
+                src="../assignments/audio/imagenes word/E6_Aplausos.PNG"
+                alt="Sonido de aplausos"
+              />
+              <p>Resultado final - Voz, ruido de fondo, tos y aplausos final</p>
+              <img
+                src="../assignments/audio/imagenes word/E6_Resultado_voz_ruido_aplausos.PNG"
+                alt="Resultado final"
+              />
+
+              <audio
+                controls
+                src="../assignments/audio/E6/voz_efectos_aplauso.wav"
+              >
+                voz_efectos_aplauso.wav
+              </audio>
+              <a
+                class="button"
+                href="../assignments/audio/E6/voz_efectos_aplauso.wav"
+                download
+                >⤓ Descargar voz_efectos_aplauso.wav</a
+              >
+              <audio controls src="../assignments/audio/E6/tos.mp3">
+                tos.mp3
+              </audio>
+              <a class="button" href="../assignments/audio/E6/tos.mp3" download
+                >⤓ Descargar tos.mp3</a
+              >
+              <audio
+                controls
+                src="../assignments/audio/E6/street-daniel_simon.wav"
+              >
+                street-daniel-simon.wav
+              </audio>
+              <a
+                class="button"
+                href="../assignments/audio/E6/street-daniel-simon.wav"
+                download
+                >⤓ Descargar street-daniel-simon.wav</a
+              >
+              <audio
+                controls
+                src="../assignments/audio/E6/aplausos_al_finalizar_un_concierto.mp3"
+              >
+                aplausos_al_finalizar_un_concierto.mp3
+              </audio>
+              <a
+                class="button"
+                href="../assignments/audio/E6/aplausos_al_finalizar_un_concierto.mp3"
+                download
+                >⤓ Descargar aplausos_al_finalizar_un_concierto.mp3</a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="task5" class="task-content">
+          <div class="task-header">
+            <h2 class="task-number">5</h2>
+            <h2 class="task-title">
+              Cuestiones avanzadas: Dominio de la frecuencia
+            </h2>
+          </div>
+          <div class="text-box">
+            <div class="activity-content">
+              <h4>Actividad 7</h4>
+              <p class="activity-text">TODO: Añade contenido.</p>
+            </div>
+            <div class="activity-content">
+              <h4>Actividad 8</h4>
+              <p class="activity-text">TODO: Añade contenido.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Assignments -->
     <div class="assignments">
-        <h2>Elige otra prática</h2>
-        <div class="other-assignments-grid">
-            <a href="text.html" class="assignment">
-                <h2>Texto</h2>
-            </a>
-            <a href="image.html" class="assignment">
-                <h2>Imagen</h2>
-            </a>
-            <a href="video.html" class="assignment">
-                <h2>Vídeo</h2>
-            </a>
-            <a href="streaming.html" class="assignment">
-                <h2>Streaming</h2>
-            </a>
-        </div>
+      <h2>Elige otra prática</h2>
+      <div class="other-assignments-grid">
+        <a href="text.html" class="assignment">
+          <h2>Texto</h2>
+        </a>
+        <a href="image.html" class="assignment">
+          <h2>Imagen</h2>
+        </a>
+        <a href="video.html" class="assignment">
+          <h2>Vídeo</h2>
+        </a>
+        <a href="streaming.html" class="assignment">
+          <h2>Streaming</h2>
+        </a>
+      </div>
     </div>
 
     <!-- Footer -->
     <footer>
-        <div class="creators">
-            <p><strong>Creadores</strong><br>
-                <a href="https://github.com/sunnivmr" target="_blank">Sunniva Mathea Runde</a><br>
-                <a href="https://github.com/crispul93" target="_blank">Cristian Camilo Pulgarín</a><br>
-                <a href="https://github.com/lizzeth-celis" target="_blank">Lizzeth Celis Sepulveda</a></p>
-
-        </div>
-        <div class="course">
-            <p><strong>34012</strong><br>
-            <a href="https://www.upv.es/pls/oalu/sic_asi.ficha_asig?p_asi=34012&p_caca=2019&p_idioma=i&p_vista=&p_tit=2255" target="_blank">Technologías Multimedia Web</a></p>
-        </div>
-        <div class="upv">
-            <img src="/img/upv_logo_black.png" alt="Universitat Politécnica de València"/>
-        </div>
+      <div class="creators">
+        <p>
+          <strong>Creadores</strong><br />
+          <a href="https://github.com/sunnivmr" target="_blank"
+            >Sunniva Mathea Runde</a
+          ><br />
+          <a href="https://github.com/crispul93" target="_blank"
+            >Cristian Camilo Pulgarín</a
+          ><br />
+          <a href="https://github.com/lizzeth-celis" target="_blank"
+            >Lizzeth Celis Sepulveda</a
+          >
+        </p>
+      </div>
+      <div class="course">
+        <p>
+          <strong>34012</strong><br />
+          <a
+            href="https://www.upv.es/pls/oalu/sic_asi.ficha_asig?p_asi=34012&p_caca=2019&p_idioma=i&p_vista=&p_tit=2255"
+            target="_blank"
+            >Technologías Multimedia Web</a
+          >
+        </p>
+      </div>
+      <div class="upv">
+        <img
+          src="/img/upv_logo_black.png"
+          alt="Universitat Politécnica de València"
+        />
+      </div>
     </footer>
-
-    </div>
-
-</body>
-
+  </body>
 </html>

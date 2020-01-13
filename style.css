@@ -244,10 +244,11 @@ Decorating activities
 }
 
 .button {
+  display: inline-block;
   background-color: #22252b;
   border-radius: 0.5em;
+  margin: 0.5em 0 0.5em 0;
   padding: 0.2em;
-  margin-top: 1em;
   color: white;
   text-decoration: none;
   font-size: small;
@@ -363,6 +364,9 @@ Responsivity
   h1 {
     font-size: 80px;
   }
+  .activity-content audio {
+    width: 75%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -374,6 +378,9 @@ Responsivity
   }
   #four-activities {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .activity-content audio {
+    width: 50%;
   }
 }
 
