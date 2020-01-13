@@ -352,6 +352,9 @@ Responsivity
   .activity-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .activity-content audio {
+    width: 75%;
+  }
 }
 
 @media (min-width: 900px) {
@@ -365,7 +368,7 @@ Responsivity
     font-size: 80px;
   }
   .activity-content audio {
-    width: 75%;
+    width: 50%;
   }
 }
 
@@ -378,9 +381,6 @@ Responsivity
   }
   #four-activities {
     grid-template-columns: repeat(4, 1fr);
-  }
-  .activity-content audio {
-    width: 50%;
   }
 }
 
